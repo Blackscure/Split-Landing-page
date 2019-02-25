@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src='./script.js'></script>
-
-    <style>
-      root {
+:root {
   --container-bg-color: #333;
   --left-bg-color: rgba(223, 39, 39, 0.7);
   --left-button-hover-color: rgba(161, 11, 11, 0.3);
@@ -151,21 +142,3 @@ h1 {
     top: 70%;
   }
 }
-    </style>
-     
-    <title>Spliting Page</title>
-</head>
-<body> 
-    <div class="container">
-        <div class="split left">
-          <h1>The Designer</h1>
-          <a href="#" class="button">Read More</a>
-        </div>
-        <div class="split right">
-          <h1>The Programmer</h1>
-          <a href="#" class="button">Read More</a>
-        </div>
-      </div>
-      
-</body>
-</html>
